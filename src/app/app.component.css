@@ -1,0 +1,14 @@
+
+body{
+    background-color: rgb(206, 216, 225);
+}
+
+.appcard{
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}

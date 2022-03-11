@@ -1,0 +1,26 @@
+
+
+<div>
+
+    <mat-card [style]="'background-color: ' + bg + ';' + 'color: ' + font + ';' + 'height: ' + tam + ';' ">
+ 
+       <mat-card-header>
+          <mat-card-title> {{titulo}} </mat-card-title>
+          <mat-card-subtitle [style]="'color: ' + font + ';' "> <b> {{sub}} </b> </mat-card-subtitle>
+       </mat-card-header>
+ 
+       <mat-card-content >
+ 
+          <mat-divider></mat-divider> 
+          <p> {{ storage }}</p>
+          <mat-divider></mat-divider> 
+          <p> {{ user}}</p>
+          <mat-divider></mat-divider> 
+          <p> {{ up }}</p>
+          <mat-divider></mat-divider> 
+ 
+         <button [style]="'color: ' + font + ';' "  mat-button color="basic"  (click)="openSnackBar('Compra Efetuada Com Sucesso!!!', 'Fechar') ">LEARN MORE</button>
+ 
+       </mat-card-content>
+    </mat-card>
+ </div>

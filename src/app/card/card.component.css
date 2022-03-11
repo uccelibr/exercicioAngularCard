@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500&family=Work+Sans:ital,wght@0,100;0,400;0,600;1,600&display=swap');
+
+
+*{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+
+
+}
+mat
+
+mat-card{
+    height: 350px;
+    width: 250px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+mat-card-title{
+
+    font-family: sans-serif;
+
+}
+
+
+mat-card-subtitle{
+    font-family: 'heebo', sans-serif;
+  font-size: 50px;
+padding: 20px;
+}
+
+mat-card-content{
+    font-family: 'heebo', sans-serif;
+
+}
+p{
+    padding-top: 10px;
+}
+
+button{
+    color: #3f5ec5;
+    font-size: 13px;
+
+    border: 1px solid rgba(162, 159, 159, 0.644);
+    width: 200px;
+    border-radius: 15px;
+}
+mat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.35);
+   
+  }
