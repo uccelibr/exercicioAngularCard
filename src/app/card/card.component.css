@@ -5,9 +5,7 @@
     text-align: center;
     font-family: 'Heebo', sans-serif;
 
-
 }
-mat
 
 mat-card{
     height: 350px;
@@ -29,7 +27,7 @@ mat-card-title{
 mat-card-subtitle{
     font-family: 'heebo', sans-serif;
   font-size: 50px;
-padding: 20px;
+padding: 15px;
 }
 
 mat-card-content{

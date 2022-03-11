@@ -1,13 +1,34 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500&family=Work+Sans:ital,wght@0,100;0,400;0,600;1,600&display=swap');
+*{
+    margin: 0;
+}
 body{
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size:auto;
     background-color: rgb(206, 216, 225);
 }
 
-.appcard{
-    height: 100vh;
-
+h1{padding: 20px;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size:30px;
+    color:rgb(103, 103, 107);
+}
+.btnslice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Heebo', sans-serif;
+    color:rgb(171, 171, 177);
+}
+.appcard{
+    height: 80vh;
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
